@@ -1,5 +1,6 @@
 package one.digital.innovation.gof;
 
+import one.digital.innovation.gof.facade.Facade;
 import one.digital.innovation.gof.singleton.SingletonEager;
 import one.digital.innovation.gof.singleton.SingletonLazy;
 import one.digital.innovation.gof.strategy.*;
@@ -29,4 +30,9 @@ public class Test {
         robo.mover();
 
     }
+
+    //Facade
+    Facade facade = new Facade();
+
+
 }
